@@ -28,7 +28,7 @@ end;
 -- Install APEX
 @apexins.sql SYSAUX SYSAUX TEMP /i/
 
--- APEX REST configuration
+-- APEX REST configuration 
 @apex_rest_config_core.sql Oracle18 Oracle18
 
 -- Required for ORDS install
